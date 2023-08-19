@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general css start  */
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --acc-color: #17479E;
+    --border-color: #dcdcdc;
+    --light-grey: #AAA;
+    --active-bg: #C7DBFF;
+    --search-bg: #fcfcfc;
+    --btn-red: #E73725;
+    --font-color: #505050;
+    --light-bg: #f8f8f8;
+    --save-btn: #077838;
+}
+
+.common-fonts {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: -0.02563rem;
+}
+
+.login_desktop_container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top of the container */
+}
+
+.login_img {
+    position: relative;
+    width: 40%;
+}
+
+.login_img img {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.login_note {
+    position: absolute;
+    top: 10%;
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white); 
+    text-align: center;
+    width:100%;
+}
+
+.login_welcome{
+    font-size: 1.2rem;
+    margin-left: 2.81rem;
+}
+
+.login_create_acc{
+    color:var(--font-color);
+    margin-left: 2.81rem;
+    margin-bottom: 1rem;
+}
+
+.login_create_acc span{
+    color:var(--acc-color);
+    cursor: pointer;
+}
+
+.section_right{
+    width:60%;
+}
+
+.login_fields {
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin:0.8rem 2.81rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    width:70%;
+}
+
+.login_icon {
+    margin-right: 0.88rem;
+}
+
+
+.login_username_section {
+    width: 100%;
+}
+
+.login_username {
+    color: var(--light-grey);
+    font-size: 1rem;
+}
+
+.login_username-input {
+    font-size: 1rem;
+    outline: none;
+    border: none; 
+    width: 100%;
+}
+
+.login_button {
+    width: 70%; 
+    border: 1px solid var(--acc-color);
+    color: var(--acc-color);
+    margin-left: 2.81rem;
+}
+
+.register_button{
+    width: 70%; 
+    border: 1px solid var(--acc-color);
+    color: var(--acc-color);
+    margin-left: 2.81rem;
+    margin-top: 0.8rem;
+}
+
+.login_btn_val {
+    text-align: center;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+    border: 1px solid var(--acc-color);
+    color:var(--acc-color);
+    background-color: var(--white);
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.login_btn_val:hover{
+    color: var(--white);
+    background-color: var(--acc-color);
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.section_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.login_logo{
+    margin-top: 1rem;
+    margin-left: 2.81rem;
+    margin-bottom: 1.5rem;
+}
+
+.login_forget{
+    width: 70%;
+   display: flex;
+   justify-content: end;
+   margin-left: 2.81rem;
+   margin-bottom: 1rem;
+   cursor:pointer;
+}
+
+.login_forget_password{
+    color:var(--acc-color);
+}
+
+.login_media{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2.81rem;
+
+}
+
+.login_media_btn{
+    background-color: #EBEFF8;
+    padding: 0.75rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.login_media_btn img{
+    margin-right: 0.5rem;
+}
+
+
